@@ -23,6 +23,15 @@ public class Main {
         while(contador < 10){
             System.out.println("Está na contagem");
             contador++;
+
         }
+    }
+}
+
+
+class Carro {
+    String modelo;
+    public Carro(String modelo){
+        this.modelo = modelo;
     }
 }
